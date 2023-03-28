@@ -31,7 +31,7 @@ function myEach(collection, callback) {
     else {
         let values = Object.values(collection)
         for (let index = 0; index < collection.length; index++) {
-            const element = collection[index];
+            const element = values[index];
             callback(element)
         }
     }
